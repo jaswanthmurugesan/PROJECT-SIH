@@ -1,0 +1,77 @@
+/* Dashboard specific styles */
+.dashboard-card {
+  background: rgba(255, 255, 255, 0.95) !important;
+  color: #1a202c !important;
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.15);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  backdrop-filter: blur(10px);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+}
+
+.dashboard-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 25px 60px rgba(0, 0, 0, 0.25);
+}
+
+.dashboard-card h3 {
+  color: #667eea !important;
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+  font-weight: 600;
+}
+
+.dashboard-card p {
+  color: #4a5568 !important;
+  font-size: 1rem;
+  line-height: 1.6;
+  margin: 0;
+}
+
+/* Ensure proper text contrast */
+.dashboard-container * {
+  color: inherit;
+}
+
+.dashboard-title {
+  color: white !important;
+  font-size: 3rem !important;
+  font-weight: bold !important;
+  margin-bottom: 30px !important;
+  text-align: center !important;
+  text-shadow: 0 4px 8px rgba(0, 0, 0, 0.3) !important;
+}
+
+.dashboard-hero {
+  background: rgba(255, 255, 255, 0.15) !important;
+  backdrop-filter: blur(10px) !important;
+  border: 1px solid rgba(255, 255, 255, 0.2) !important;
+  color: white !important;
+  padding: 50px !important;
+  border-radius: 25px !important;
+  margin-bottom: 40px !important;
+  text-align: center !important;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.2) !important;
+}
+
+.dashboard-hero h2 {
+  font-size: 2.5rem !important;
+  margin-bottom: 20px !important;
+  font-weight: 600 !important;
+  color: white !important;
+}
+
+.dashboard-hero p {
+  color: rgba(255, 255, 255, 0.9) !important;
+  font-size: 1.2rem !important;
+  margin-bottom: 15px !important;
+}
+
+.dashboard-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 30px;
+  margin-top: 40px;
+}
