@@ -1,0 +1,39 @@
+{
+  "scrapeDate": "2025-09-19T02:33:35.646Z",
+  "totalJobs": 8,
+  "sourceUrl": "Demo Job Portal",
+  "jobs": [
+    {
+      "title": "Software Engineer",
+      "salary": "₹6,00,000 - ₹10,00,000 per annum"
+    },
+    {
+      "title": "Data Analyst",
+      "salary": "₹4,50,000 per annum"
+    },
+    {
+      "title": "Product Manager",
+      "salary": "₹8,00,000 - ₹12,00,000 per annum"
+    },
+    {
+      "title": "Frontend Developer",
+      "salary": "₹5,00,000 - ₹8,00,000 per annum"
+    },
+    {
+      "title": "DevOps Engineer",
+      "salary": "₹7,00,000 - ₹11,00,000 per annum"
+    },
+    {
+      "title": "QA Tester",
+      "salary": "Not specified"
+    },
+    {
+      "title": "UI/UX Designer",
+      "salary": "₹4,00,000 - ₹7,00,000 per annum"
+    },
+    {
+      "title": "Backend Developer",
+      "salary": "₹6,50,000 - ₹9,50,000 per annum"
+    }
+  ]
+}
