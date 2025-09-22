@@ -1,0 +1,59 @@
+{
+  "learners": [
+    {
+      "id": "learner_001",
+      "name": "Ravi Kumar",
+      "location": "Bengaluru, Karnataka",
+      "education": "ITI - Mechanical",
+      "skills": ["mechanics"],
+      "aspirations": ["EV technician"],
+      "pathways": [
+        {
+          "pathway_id": "ev_01",
+          "title": "EV Technician - NSQF 5",
+          "progress": 35,
+          "modules": [
+            {"module_id": "m1", "title": "Battery Fundamentals", "status": "completed", "score": 78},
+            {"module_id": "m2", "title": "Motor Diagnostics", "status": "in_progress", "score": null},
+            {"module_id": "m3", "title": "On-job Apprenticeship", "status": "pending", "score": null}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "learner_002",
+      "name": "Asha Devi",
+      "location": "Coimbatore, Tamil Nadu",
+      "education": "Diploma - Electrical",
+      "skills": ["wiring","testing"],
+      "aspirations": ["Solar technician"],
+      "pathways": [
+        {
+          "pathway_id": "solar_01",
+          "title": "Solar Technician - NSQF 4",
+          "progress": 80,
+          "modules": [
+            {"module_id": "s1", "title": "PV Basics", "status": "completed", "score": 88},
+            {"module_id": "s2", "title": "Installation & Safety", "status": "completed", "score": 82},
+            {"module_id": "s3", "title": "Site Internship", "status": "in_progress", "score": null}
+          ]
+        }
+      ]
+    }
+  ],
+  "trainers": [
+    {
+      "id": "trainer_001",
+      "name": "Suresh",
+      "cohorts": [
+        {"cohort_id": "cohort_ev_1", "title": "EV batch - Bengaluru", "learners": ["learner_001"]},
+        {"cohort_id": "cohort_solar_1", "title": "Solar batch - Coimbatore", "learners": ["learner_002"]}
+      ]
+    }
+  ],
+  "labour_market": [
+    {"skill": "EV repair", "region": "Karnataka", "openings": 240, "median_salary": 22000},
+    {"skill": "Solar installation", "region": "Tamil Nadu", "openings": 120, "median_salary": 18000},
+    {"skill": "Battery technology", "region": "All India", "openings": 500, "median_salary": 24000}
+  ]
+}
